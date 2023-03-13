@@ -1,0 +1,22 @@
+.dropdown-container {
+  /* background: rgb(242, 242, 242); */
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  z-index: 1;
+  padding: 8px;
+  border-radius: 8px;
+  top: 81%;
+  right: 3%;
+  box-shadow: 4px 4px 13px 4px rgb(0 0 0 / 20%);
+  background-color: white;
+}
+
+.dropdown-shortcuts {
+  border-bottom: 1px solid grey;
+  padding: 4px;
+}
+
+.dropdown-tools {
+  padding: 4px;
+}

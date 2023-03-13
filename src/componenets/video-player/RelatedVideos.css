@@ -1,0 +1,5 @@
+.related-videos-container {
+  height: 840px;
+  overflow-y: scroll;
+  width: 20%;
+}

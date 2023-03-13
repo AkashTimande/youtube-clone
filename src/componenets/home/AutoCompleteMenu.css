@@ -1,0 +1,35 @@
+.autocomplete-menu-container {
+  position: fixed;
+  height: 505px;
+  z-index: 1;
+  padding: 8px;
+  border-radius: 16px;
+  top: 60px;
+  left: 427px;
+  box-shadow: 4px 4px 13px 4px rgb(0 0 0 / 20%);
+  background-color: white;
+  width: 36%;
+}
+
+.autocomplete-item-container {
+  display: flex;
+  padding: 6px 8px;
+  align-items: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.autocomplete-item-container:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.search-logo {
+  width: 5%;
+  padding: 0px 8px;
+  font-size: 16px;
+}
+
+.autocomplete-title {
+  width: 95%;
+  font-size: 18px;
+}

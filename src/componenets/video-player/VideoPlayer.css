@@ -1,0 +1,73 @@
+.video-player-container {
+  height: 850px;
+  width: 80%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.video-player-section {
+  height: 95%;
+}
+
+.videoplayer-details-section {
+  height: 4%;
+  position: relative;
+  bottom: 17%;
+}
+
+.videoplayer-details-name {
+  font-size: 24px;
+  word-break: break-word;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+
+.videoplayer-details-info {
+  display: flex;
+}
+
+.videoplayer-details-channel {
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.videoplayer-details-channel-logo {
+  width: 40px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 8px;
+}
+
+.videoplayer-channel-name {
+  display: block;
+  margin-right: 16px;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Roboto", sans-serif;
+}
+
+.subscribed-button {
+  display: block;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 16px;
+  border: none;
+}
+
+.subscribed-button svg {
+  margin: 0px 16px 0px 0px;
+}
+
+.ytp-title-text {
+  display: none;
+}
+
+.ytp-pause-overlay {
+  display: none;
+}
+
+.ytp-chrome-top.ytp-show-cards-title {
+  display: none;
+}

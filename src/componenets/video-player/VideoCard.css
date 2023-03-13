@@ -1,0 +1,45 @@
+.related-video-container {
+  display: flex;
+  margin: 4px auto;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.related-video-details {
+  width: 50%;
+  padding: 5px 0px;
+}
+
+.related-video-details-views {
+  font-size: 14px;
+  color: grey;
+}
+
+.related-video-title {
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 16px;
+}
+
+.related-video-channel-title {
+  display: block;
+  padding: 4px 0px;
+  color: grey;
+}
+
+.related-time-container {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 0px;
+  bottom: 8%;
+  right: 55%;
+  border-radius: 4px;
+  padding: 2px;
+}

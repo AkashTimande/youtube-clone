@@ -1,0 +1,12 @@
+.main-container {
+  width: 86%;
+  overflow-y: hidden;
+}
+
+.vidoes-container {
+  max-height: 770px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 8px;
+  overflow-y: scroll;
+}

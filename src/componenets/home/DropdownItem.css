@@ -1,0 +1,23 @@
+.dropdown-item-container {
+  display: flex;
+  padding: 4px;
+  color: rgb(15, 15, 15);
+}
+
+.dropdown-item-icon {
+  width: 20%;
+  /* padding: 0px; */
+  font-size: 24px;
+}
+
+.dropdown-item-name {
+  width: 80%;
+  padding: 0px;
+  font-size: 15px;
+  font-family: "Roboto", "Arial", sans-serif;
+  padding: 4px 0px;
+}
+
+.dropdown-item-container:hover {
+  background: rgb(242, 242, 242);
+}

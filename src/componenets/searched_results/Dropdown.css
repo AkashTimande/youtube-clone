@@ -1,0 +1,21 @@
+.dropdown-container-search {
+  position: absolute;
+  width: 193px;
+  height: 203px;
+  z-index: 1;
+  padding: 8px;
+  border-radius: 8px;
+  top: 0%;
+  left: 95%;
+  box-shadow: 4px 4px 13px 4px rgb(0 0 0 / 20%);
+  background-color: white;
+}
+
+.dropdown-shortcuts-search {
+  border-bottom: 1px solid grey;
+  padding: 4px;
+}
+
+.dropdown-tools-search {
+  padding: 4px;
+}
